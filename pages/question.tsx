@@ -4,7 +4,7 @@ import Link from 'next/link'
 import Router from 'next/router'
 import React, { useState } from 'react'
 import { questionDatas } from '../public/questionData'
-import { QuestionProps } from './types/questionType'
+import QuestionProps from '../types/questionType'
 
 const Question = () => {
   const questions: QuestionProps[] = questionDatas

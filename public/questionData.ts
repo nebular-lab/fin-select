@@ -1,4 +1,4 @@
-import { QuestionProps } from '../pages/types/questionType'
+import QuestionProps from '../types/questionType'
 
 export const questionDatas: QuestionProps[] = [
   { id: 0, title: '質問1です', choices: ['選択肢1ddd', '選択肢2gaga'] },
