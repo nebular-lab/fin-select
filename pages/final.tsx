@@ -86,7 +86,7 @@ const Final = () => {
 
   return (
     <>
-      <VStack h="100vh" bg="#fae3d9" px="200px" pt="50px" gap="10px">
+      <VStack h="100vh" bg="#fae3d9" px="200px" pt="20px" gap="10px">
         <Flex>
           <Text fontSize="50px">あなたは</Text>
           <Text fontSize="50px" fontWeight="bold">
@@ -99,7 +99,7 @@ const Final = () => {
             {desText}
           </Text>
           <Link href={bookLink} target="_blank">
-            <Text fontSize="20px" whiteSpace="pre-wrap" lineHeight="20px" textDecoration="underline">
+            <Text fontSize="15px" whiteSpace="pre-wrap" lineHeight="20px" textDecoration="underline">
               {bookText}
             </Text>
           </Link>
