@@ -86,7 +86,7 @@ const Final = () => {
 
   return (
     <>
-      <VStack h="100vh" bg="#fae3d9" px="500px" pt="100px" gap="10px">
+      <VStack h="100vh" bg="#fae3d9" px="200px" pt="100px" gap="10px">
         <Flex>
           <Text fontSize="50px">あなたは</Text>
           <Text fontSize="50px" fontWeight="bold">

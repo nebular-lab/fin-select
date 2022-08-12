@@ -57,10 +57,10 @@ const Question = () => {
     <VStack w="full" h="100vh" bg="#fae3d9">
       <SlideFade reverse={false} in={isOpen} offsetX="500px">
         <VStack pt="200px">
-          <Text fontSize="50px" whiteSpace="pre-wrap">
+          <Text fontSize="40px" whiteSpace="pre-wrap">
             {title}
           </Text>
-          <HStack gap="40px" pt="300px">
+          <HStack gap="40px" pt="150px">
             {choices.map((c, index) => {
               return (
                 <Button
