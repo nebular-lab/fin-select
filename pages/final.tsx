@@ -95,12 +95,12 @@ const Final = () => {
           <Text fontSize="50px">が向いています</Text>
         </Flex>
         <Box bg="gray.100" borderRadius="10px" p="5px" h="35%" w="50%">
-          <Text fontSize="15px" whiteSpace="pre-wrap" lineHeight="20px">
+          <Text fontSize="14px" whiteSpace="pre-wrap" lineHeight="20px">
             {desText}
           </Text>
           <Link href={bookLink} target="_blank">
-            <Text fontSize="15px" whiteSpace="pre-wrap" lineHeight="20px" textDecoration="underline">
-              {bookText}
+            <Text fontSize="14px" whiteSpace="pre-wrap" lineHeight="20px" textDecoration="underline">
+              {`『${bookText}』`}
             </Text>
           </Link>
         </Box>
