@@ -147,7 +147,7 @@ const Final = () => {
                   cursor="pointer"
                   textDecoration="underline"
                   color="gray.600"
-                  onClick={(event) => {
+                  onClick={(event: any) => {
                     setDesText(descriptionData[event.target.id[0]][event.target.id[1]][event.target.id[2]])
                     setBookText(bookNames[event.target.id[0]][event.target.id[1]][event.target.id[2]])
                     setBookLink(bookLinkData[event.target.id[0]][event.target.id[1]][event.target.id[2]])
@@ -161,7 +161,7 @@ const Final = () => {
                   cursor="pointer"
                   textDecoration="underline"
                   color="gray.600"
-                  onClick={(event) => {
+                  onClick={(event: any) => {
                     setDesText(descriptionData[event.target.id[0]][event.target.id[1]][event.target.id[2]])
                     setBookText(bookNames[event.target.id[0]][event.target.id[1]][event.target.id[2]])
                     setBookLink(bookLinkData[event.target.id[0]][event.target.id[1]][event.target.id[2]])
@@ -177,7 +177,7 @@ const Final = () => {
                   cursor="pointer"
                   textDecoration="underline"
                   color="gray.600"
-                  onClick={(event) => {
+                  onClick={(event: any) => {
                     setDesText(descriptionData[event.target.id[0]][event.target.id[1]][event.target.id[2]])
                     setBookText(bookNames[event.target.id[0]][event.target.id[1]][event.target.id[2]])
                     setBookLink(bookLinkData[event.target.id[0]][event.target.id[1]][event.target.id[2]])
@@ -191,7 +191,7 @@ const Final = () => {
                   cursor="pointer"
                   textDecoration="underline"
                   color="gray.600"
-                  onClick={(event) => {
+                  onClick={(event: any) => {
                     setDesText(descriptionData[event.target.id[0]][event.target.id[1]][event.target.id[2]])
                     setBookText(bookNames[event.target.id[0]][event.target.id[1]][event.target.id[2]])
                     setBookLink(bookLinkData[event.target.id[0]][event.target.id[1]][event.target.id[2]])
@@ -207,7 +207,7 @@ const Final = () => {
                 cursor="pointer"
                 textDecoration="underline"
                 color="gray.600"
-                onClick={(event) => {
+                onClick={(event: any) => {
                   setDesText(descriptionData[event.target.id[0]][event.target.id[1]][event.target.id[2]])
                   setBookText(bookNames[event.target.id[0]][event.target.id[1]][event.target.id[2]])
                   setBookLink(bookLinkData[event.target.id[0]][event.target.id[1]][event.target.id[2]])
@@ -230,7 +230,7 @@ const Final = () => {
                 borderRightColor="black"
                 borderRightWidth="2px"
                 borderRightStyle="dotted"
-                onClick={(event) => {
+                onClick={(event: any) => {
                   setDesText(descriptionData[event.target.id[0]][event.target.id[1]][event.target.id[2]])
                   setBookText(bookNames[event.target.id[0]][event.target.id[1]][event.target.id[2]])
                   setBookLink(bookLinkData[event.target.id[0]][event.target.id[1]][event.target.id[2]])
@@ -246,7 +246,7 @@ const Final = () => {
                 cursor="pointer"
                 textDecoration="underline"
                 color="gray.600"
-                onClick={(event) => {
+                onClick={(event: any) => {
                   setDesText(descriptionData[event.target.id[0]][event.target.id[1]][event.target.id[2]])
                   setBookText(bookNames[event.target.id[0]][event.target.id[1]][event.target.id[2]])
                   setBookLink(bookLinkData[event.target.id[0]][event.target.id[1]][event.target.id[2]])
@@ -267,7 +267,7 @@ const Final = () => {
                   cursor="pointer"
                   textDecoration="underline"
                   color="gray.600"
-                  onClick={(event) => {
+                  onClick={(event: any) => {
                     setDesText(descriptionData[event.target.id[0]][event.target.id[1]][event.target.id[2]])
                     setBookText(bookNames[event.target.id[0]][event.target.id[1]][event.target.id[2]])
                     setBookLink(bookLinkData[event.target.id[0]][event.target.id[1]][event.target.id[2]])
@@ -281,7 +281,7 @@ const Final = () => {
                   cursor="pointer"
                   textDecoration="underline"
                   color="gray.600"
-                  onClick={(event) => {
+                  onClick={(event: any) => {
                     setDesText(descriptionData[event.target.id[0]][event.target.id[1]][event.target.id[2]])
                     setBookText(bookNames[event.target.id[0]][event.target.id[1]][event.target.id[2]])
                     setBookLink(bookLinkData[event.target.id[0]][event.target.id[1]][event.target.id[2]])
