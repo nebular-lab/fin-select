@@ -86,7 +86,7 @@ const Final = () => {
 
   return (
     <>
-      <VStack h="100vh" bg="#fae3d9" px="200px" pt="100px" gap="10px">
+      <VStack h="100vh" bg="#fae3d9" px="200px" pt="50px" gap="10px">
         <Flex>
           <Text fontSize="50px">あなたは</Text>
           <Text fontSize="50px" fontWeight="bold">
@@ -94,7 +94,7 @@ const Final = () => {
           </Text>
           <Text fontSize="50px">が向いています</Text>
         </Flex>
-        <Box bg="gray.100" borderRadius="10px" p="5px" h="50%" w="65%">
+        <Box bg="gray.100" borderRadius="10px" p="5px" h="50%" w="35%">
           <Text fontSize="20px" whiteSpace="pre-wrap" lineHeight="20px">
             {desText}
           </Text>
