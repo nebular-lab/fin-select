@@ -94,7 +94,7 @@ const Final = () => {
           </Text>
           <Text fontSize="50px">が向いています</Text>
         </Flex>
-        <Box bg="gray.100" borderRadius="10px" p="5px" h="50%" w="35%">
+        <Box bg="gray.100" borderRadius="10px" p="5px" h="35%" w="50%">
           <Text fontSize="20px" whiteSpace="pre-wrap" lineHeight="20px">
             {desText}
           </Text>
